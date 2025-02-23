@@ -1,0 +1,91 @@
+/* Estilos generales */
+body {
+    font-family: "Georgia", serif;
+    background-color: #1a1a1a;
+    color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contenedor {
+    max-width: 650px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+  }
+  
+  h1, h2 {
+    color: #f7c900;
+    text-shadow: 2px 2px 10px rgba(247, 201, 0, 0.7);
+  }
+  
+  #bookInfo {
+    font-style: italic;
+    margin-top: 20px;
+    color: #ddd;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Estilos para la lista de libros */
+  ul li {
+    background: #333;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+  }
+  
+  ul li:hover {
+    background: #444;
+    color: #f7c900;
+  }
+  
+  /* Tooltip personalizado */
+  #tooltip {
+    position: absolute;
+    display: none;
+    background: #222;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  /* Estilos para la sección de capítulos */
+  #chapterSection {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+  }
+  
+  #chapterSection input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #chapterSection button {
+    padding: 10px 15px;
+    margin: 10px;
+    background: #9b59b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  #chapterSection button:hover {
+    background: #8e44ad;
+  }
+  

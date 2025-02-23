@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca Mapache Mandrake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="contenedor">
+    <h1>Biblioteca Mapache Mandrake</h1>
+    <p id="bookInfo">Haz clic en un libro para ver su información.</p>
+    <ul id="bookList">
+      <!-- Se generarán los libros aquí -->
+    </ul>
+
+    <!-- Sección de capítulos (aparece cuando se selecciona un libro) -->
+    <div id="chapterSection" style="display: none;">
+      <h2>Capítulos del Libro</h2>
+      <ul id="chapterList">
+        <!-- Aquí se mostrarán los capítulos -->
+      </ul>
+      <input type="text" id="newChapter" placeholder="Nuevo capítulo">
+      <button id="addChapterBtn">Agregar Capítulo</button>
+      <button id="removeChapterBtn">Eliminar Último Capítulo</button>
+    </div>
+  </section>
+
+  <!-- Tooltip personalizado, se mostrará con JS -->
+  <div id="tooltip"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
